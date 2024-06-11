@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Header from "./header";
+import Header from "./Header";
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -14,6 +14,7 @@ export const metadata: Metadata = {
 export default function RootLayout({
   children,
 }: {
+
   children: React.ReactNode
 }) {
   return (
@@ -22,6 +23,7 @@ export default function RootLayout({
         <Header/>
         <main>{children}</main>
       </body>
+
     </html>
   )
 }
