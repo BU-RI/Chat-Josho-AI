@@ -13,7 +13,7 @@ function Login() {
     return (
     <div>
         <p>Login</p>
-        <Link href={"/Home"}>back to Home</Link>
+        <Link href={"/"}>back to Home</Link>
         <Link href={"/createuser"}>create user</Link>
         <input
         type="text"
