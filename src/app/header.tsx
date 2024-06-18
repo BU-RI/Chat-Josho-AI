@@ -1,7 +1,7 @@
-const Header =() =>{
+const Header = () =>{
     return (
         <div>
-             nyo
+             nyodayo
         </div>
     )
 }
