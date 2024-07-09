@@ -19,7 +19,6 @@ function Login() {
         type="text"
         onChange={(e) => ( setValue(e.target.value) )}
         >
-
         </input>
         <p>{value}</p>
     </div>

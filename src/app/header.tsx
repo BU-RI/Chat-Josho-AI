@@ -1,8 +1,7 @@
-const Header = () =>{
+export default function Header() {
     return (
         <div>
-             nyodayo
+             nyo
         </div>
     )
-}
-export default Header;
+};
