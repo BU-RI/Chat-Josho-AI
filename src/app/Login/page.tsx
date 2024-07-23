@@ -13,8 +13,8 @@ function Login() {
     return (
     <div>
         <p>Login</p>
-        <Link href={"/"}>back to Home</Link>
-        <Link href={"/createuser"}>create user</Link>
+        <Link href={"/"} className="back">back to Home</Link>
+        <Link href={"/createuser"} className="create">create user</Link>
         <input
         type="text"
         onChange={(e) => ( setValue(e.target.value) )}

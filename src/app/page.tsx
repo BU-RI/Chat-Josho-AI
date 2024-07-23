@@ -15,11 +15,12 @@ export default function Home() {
           type="text"
           onChange={(e) => ( setText(e.target.value) )}
           className="input"
-        >
+          placeholder="聞きたいことを入力してください" required>
         </input>
-        <button className="button">送信</button>
+        <button className="submit">送信</button>
       </div>
       <div className="ai">
+      <p className="answer">お答えします</p>
       </div>
     </div>
   );
