@@ -25,3 +25,4 @@ export default function Home() {
     </div>
   );
 }
+//送信ボタン装飾。loginのリンク付近の装飾、login画面の装飾

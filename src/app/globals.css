@@ -11,9 +11,7 @@
     margin-top: -10px;
 }
 .ai {
-    position: relative;
     margin-top: 10px;
-    padding: 10px;
     height: 100px;
     width: 95%;
     border-width: 5px;
@@ -21,9 +19,10 @@
     border-style: ridge;
 }
 .answer{
-    position: absolute;
     color: rgb(105, 105, 105, 0.7);
-    vertical-align: middle
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 5px;
 }
 .div{
     text-align: center;
