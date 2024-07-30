@@ -11,16 +11,15 @@ import { useState } from "react";
 function Login() {
     const [ value, setValue ] = useState("")
     return (
-    <div>
-        <p>Login</p>
-        <Link href={"/"} className="back">back to Home</Link>
-        <Link href={"/createuser"} className="create">create user</Link>
-        <input
-        type="text"
-        onChange={(e) => ( setValue(e.target.value) )}
-        >
-        </input>
-        <p>{value}</p>
+    <div className="container">
+        <form>
+        <p className="fsize">ログイン画面</p>
+        <input className="username" type="text" placeholder="Username" />
+        <input className="pass" type="password" placeholder="Password" />
+        <button className="login2" type="submit">ログイン</button>
+      </form>
+      <Link href={"/"} className="back">back to Home</Link>
+      <Link href={"/createuser"} className="create">create user</Link>
     </div>
     )
 }
