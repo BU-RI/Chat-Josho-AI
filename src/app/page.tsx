@@ -11,6 +11,7 @@ export default function Home() {
       <h1 className="center">Chat JOSHO AI</h1>
       <div className="div">
       <Link href={"/Login"} className="login">＞ Go to Login</Link>
+      <form>
         <input
           type="text"
           onChange={(e) => ( setText(e.target.value) )}
@@ -18,6 +19,7 @@ export default function Home() {
           placeholder="聞きたいことを入力してください" required>
         </input>
         <button className="submit" type="submit">⇓</button>
+      </form>  
       </div>
       <div className="ai">
       <p className="answer">お答えします</p>
