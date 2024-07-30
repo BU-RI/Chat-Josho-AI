@@ -6,7 +6,7 @@ import { use, useState } from "react";
 
 export default function Home() {
   const [text, setText] = useState("");
-  const [content, setContent] = useState<string>('');
+  const [content, setContent] = useState<string>('おこたえします');
   const sendtext = text 
 
   const getAzData = async () => {
@@ -36,10 +36,10 @@ export default function Home() {
           className="input"
           placeholder="聞きたいことを入力してください" required>
         </input>
-        <button className="submit">送信</button>
+        <button className="submit" onClick={getAzData}>送信</button>
       </div>
       <div className="ai">
-      <p className="answer">お答えします</p>
+      <p className="answer">{content}</p>
       </div>
     </div>
   );
