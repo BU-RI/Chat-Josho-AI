@@ -12,11 +12,17 @@
 }
 .ai {
     margin-top: 10px;
-    padding: 10px;
     height: 100px;
+    width: 95%;
     border-width: 5px;
     border-color: rgb(83, 151, 239);
     border-style: ridge;
+}
+.answer{
+    color: rgb(105, 105, 105, 0.7);
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 5px;
 }
 .div{
     text-align: center;
@@ -26,6 +32,13 @@
     height: 40px;
     font-size: 20px;
 }
-.button{
+.submit{
     word-spacing: 10px;
+}
+.back{
+    text-align: left;
+}
+.create{
+    text-align: center;
+    margin-top: 10px;
 }
