@@ -17,7 +17,7 @@ export class AzOpenaiRepository {
 
       try {
           const messages = [
-            { role: 'system', content: 'You are my friend and your name is AI 条件:リクエストした内容と前回AIがレスポンスした内容を加味して話してください,前回AIがレスポンスした内容とリクエストした内容が関係ないのなら前回AIがレスポンスした内容を加味しない,リクエストした内容を優先に答えてください,提案はしないでください,自然な日本語になるように答えてください,ため口で答えてください,式で出さないでください,返答する内容は30文字以内' },
+            { role: 'system', content: 'you are helpful assistant' },
             {
               role: 'user',
               content,
