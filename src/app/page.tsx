@@ -9,15 +9,15 @@ export default function Home() {
   return (
     <div>
       <h1 className="center">Chat JOSHO AI</h1>
-      <Link href={"/Login"} className="login">Go to Login</Link>
       <div className="div">
+      <Link href={"/Login"} className="login">＞ Go to Login</Link>
         <input
           type="text"
           onChange={(e) => ( setText(e.target.value) )}
           className="input"
           placeholder="聞きたいことを入力してください" required>
         </input>
-        <button className="submit">送信</button>
+        <button className="submit" type="submit">⇓</button>
       </div>
       <div className="ai">
       <p className="answer">お答えします</p>
@@ -25,4 +25,4 @@ export default function Home() {
     </div>
   );
 }
-//送信ボタン装飾。loginのリンク付近の装飾、login画面の装飾
+//login画面の装飾

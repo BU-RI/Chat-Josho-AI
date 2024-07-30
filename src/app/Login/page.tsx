@@ -11,7 +11,7 @@ import { useState } from "react";
 function Login() {
     const [ value, setValue ] = useState("")
     return (
-    <div>
+    <div className="contena">
         <p>Login</p>
         <Link href={"/"} className="back">back to Home</Link>
         <Link href={"/createuser"} className="create">create user</Link>
