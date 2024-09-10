@@ -18,7 +18,7 @@ export default function Home() {
           className="input"
           placeholder="聞きたいことを入力してください" required>
         </input>
-        <button className="submit" type="submit">⇓</button>
+        <button className="submit" type="button" value="Check">⇓</button>
       </form>  
       </div>
       <div className="ai">
@@ -27,4 +27,3 @@ export default function Home() {
     </div>
   );
 }
-//login画面の装飾
