@@ -38,7 +38,7 @@ export default function Home() {
           placeholder="聞きたいことを入力してください" required>
         </input>
 
-        <button className="submit" type="submit" onClick={getAzData}>⇓</button>
+        <button className="button"  onClick={getAzData}>⇓</button>
       </form>  
 
       </div>
