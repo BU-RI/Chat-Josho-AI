@@ -38,7 +38,11 @@ export default function Home() {
           placeholder="聞きたいことを入力してください" required>
         </input>
 
-        <button className="button"  onClick={getAzData}>⇓</button>
+
+
+        <button className="submit" type="button" onClick={getAzData}>⇓</button>
+
+
       </form>  
 
       </div>
@@ -48,4 +52,3 @@ export default function Home() {
     </div>
   );
 }
-//login画面の装飾
