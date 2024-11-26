@@ -27,7 +27,6 @@ export default function Home() {
 
   return (
     <div>
-      <h1 className="center">Chat JOSHO AI</h1>
       <div className="div">
       <Link href={"/Login"} className="login">＞ Go to Login</Link>
       <form>
