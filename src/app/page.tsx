@@ -28,7 +28,7 @@ export default function Home() {
   return (
     <div>
       <div className="div">
-      <Link href={"/Login"} className="login">＞ Go to Login</Link>
+      <Link href={"/Login"} className="login"> <img src="signin.png" alt="image" className="img2"/></Link>
       <form>
         <input
           type="text"
