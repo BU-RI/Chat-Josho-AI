@@ -1,3 +1,27 @@
+.header{
+  text-align: center;
+  background: #6d368e;
+  margin-top: auto;
+  color: #6d368e;
+  backdrop-filter: #7417c591;
+  position: relative;
+  top: auto;
+  z-index: 4;
+}
+
+.login{
+  text-align: right;
+  position: absolute;
+  top: 0.6%;
+  right: 0%;
+  z-index: 5;
+}
+
+body,html {
+  margin: 0px;
+  padding: 0px;
+}
+
 .center{
     text-align: center;
     background: #6d368e;
@@ -5,14 +29,16 @@
     color: white;
 }
 
-.login{
-    display: block;
-    text-align: left;
-    width: 115px;
-    margin-bottom: 20px;
-    margin-top: -10px;
-    color: blue;
+.img{
+  width: 360px;
+  height: 75px;
 }
+
+.img2{
+  width: 200px;
+  height: 75px;
+}
+
 
 .ai {
     margin-top: 10px;
@@ -24,7 +50,7 @@
 }
 
 .answer{
-    color: rgb(105, 105, 105, 0.7);
+    color: rgb(0, 0, 0);
     margin-top: 40px;
     margin-bottom: 40px;
     margin-left: 5px;
@@ -92,7 +118,7 @@ input[type="password"] {
   width: 93%;
   padding: 10px;
   margin-bottom: 10px;
-  border: 1px solid #ccc;
+  border: 1px solid #d6d6d6;
   border-radius: 4px;
 }
 
@@ -107,4 +133,14 @@ input[type="password"] {
 }
 .login2:hover {
   background-color: #45a049;
+}
+
+.back {
+  color: red;
+
+}
+
+.create {
+  color: blue;
+  text-align: center;
 }
